@@ -1,0 +1,140 @@
+# Reading C:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile C:/Users/scarte9/ECSE425-Pipeline/pipeline.vhd
+source pipeline_tb.tcl
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:12:07 on Jan 31,2016
+# vcom -reportprogress 300 pipeline.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pipeline
+# -- Compiling architecture behavioral of pipeline
+# End time: 15:12:07 on Jan 31,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:12:07 on Jan 31,2016
+# vcom -reportprogress 300 pipeline_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pipeline_tb
+# -- Compiling architecture behaviour of pipeline_tb
+# End time: 15:12:08 on Jan 31,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -gui C:\Users\scarte9\ECSE425-Pipeline\pipeline.vhd 
+# Start time: 15:12:08 on Jan 31,2016
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.pipeline_tb(behaviour)
+# Loading work.pipeline(behavioral)
+# ** Warning: (vsim-8683) Uninitialized out port /pipeline_tb/dut/op1 has no driver.
+# 
+# This port will contribute value (-2147483648) to the signal network.
+# 
+# ** Warning: (vsim-8683) Uninitialized out port /pipeline_tb/dut/op2 has no driver.
+# 
+# This port will contribute value (-2147483648) to the signal network.
+# 
+# ** Warning: (vsim-8683) Uninitialized out port /pipeline_tb/dut/op3 has no driver.
+# 
+# This port will contribute value (-2147483648) to the signal network.
+# 
+# ** Warning: (vsim-8683) Uninitialized out port /pipeline_tb/dut/op4 has no driver.
+# 
+# This port will contribute value (-2147483648) to the signal network.
+# 
+# ** Warning: (vsim-8683) Uninitialized out port /pipeline_tb/dut/op5 has no driver.
+# 
+# This port will contribute value (-2147483648) to the signal network.
+# 
+# ** Warning: (vsim-8683) Uninitialized out port /pipeline_tb/dut/final_output has no driver.
+# 
+# This port will contribute value (-2147483648) to the signal network.
+# 
+quit -sim
+source pipeline_tb.tcl
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:15:58 on Jan 31,2016
+# vcom -reportprogress 300 pipeline.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pipeline
+# -- Compiling architecture behavioral of pipeline
+# End time: 15:15:58 on Jan 31,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:15:58 on Jan 31,2016
+# vcom -reportprogress 300 pipeline_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pipeline_tb
+# -- Compiling architecture behaviour of pipeline_tb
+# End time: 15:15:58 on Jan 31,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# OpenFile pipeline_tb.vhd
+# ** Error: (vish-4008) Object 'clk' not found.
+# 
+source pipeline_tb.tcl
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:16:08 on Jan 31,2016
+# vcom -reportprogress 300 pipeline.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pipeline
+# -- Compiling architecture behavioral of pipeline
+# End time: 15:16:09 on Jan 31,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 15:16:09 on Jan 31,2016
+# vcom -reportprogress 300 pipeline_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pipeline_tb
+# -- Compiling architecture behaviour of pipeline_tb
+# End time: 15:16:09 on Jan 31,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 15:16:09 on Jan 31,2016
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.pipeline_tb(behaviour)
+# Loading work.pipeline(behavioral)
+# ** Warning: (vsim-8683) Uninitialized out port /pipeline_tb/dut/op1 has no driver.
+# 
+# This port will contribute value (-2147483648) to the signal network.
+# 
+# ** Warning: (vsim-8683) Uninitialized out port /pipeline_tb/dut/op2 has no driver.
+# 
+# This port will contribute value (-2147483648) to the signal network.
+# 
+# ** Warning: (vsim-8683) Uninitialized out port /pipeline_tb/dut/op3 has no driver.
+# 
+# This port will contribute value (-2147483648) to the signal network.
+# 
+# ** Warning: (vsim-8683) Uninitialized out port /pipeline_tb/dut/op4 has no driver.
+# 
+# This port will contribute value (-2147483648) to the signal network.
+# 
+# ** Warning: (vsim-8683) Uninitialized out port /pipeline_tb/dut/op5 has no driver.
+# 
+# This port will contribute value (-2147483648) to the signal network.
+# 
+# ** Warning: (vsim-8683) Uninitialized out port /pipeline_tb/dut/final_output has no driver.
+# 
+# This port will contribute value (-2147483648) to the signal network.
+# 
+quit -sim

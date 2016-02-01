@@ -1,8 +1,8 @@
 # Reading C:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
 # OpenFile C:/Users/scarte9/ECSE425-Pipeline/pipeline.vhd
-source pipeline_tb.tcl
+source pipeline_tb.tcl 
 # Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 15:12:07 on Jan 31,2016
+# Start time: 11:05:43 on Feb 01,2016
 # vcom -reportprogress 300 pipeline.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -10,10 +10,10 @@ source pipeline_tb.tcl
 # -- Loading package NUMERIC_STD
 # -- Compiling entity pipeline
 # -- Compiling architecture behavioral of pipeline
-# End time: 15:12:07 on Jan 31,2016, Elapsed time: 0:00:00
+# End time: 11:05:43 on Feb 01,2016, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 15:12:07 on Jan 31,2016
+# Start time: 11:05:43 on Feb 01,2016
 # vcom -reportprogress 300 pipeline_tb.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -21,44 +21,56 @@ source pipeline_tb.tcl
 # -- Loading package NUMERIC_STD
 # -- Compiling entity pipeline_tb
 # -- Compiling architecture behaviour of pipeline_tb
-# End time: 15:12:08 on Jan 31,2016, Elapsed time: 0:00:01
+# ** Error: pipeline_tb.vhd(86): (vcom-1136) Unknown identifier "final_output".
+# 
+# ** Error: pipeline_tb.vhd(86): Type error resolving infix expression "<=" as type std.STANDARD.BOOLEAN.
+# ** Error: pipeline_tb.vhd(93): (vcom-1136) Unknown identifier "final_output".
+# 
+# ** Error: pipeline_tb.vhd(93): Type error resolving infix expression "<=" as type std.STANDARD.BOOLEAN.
+# ** Error: pipeline_tb.vhd(97): (vcom-1136) Unknown identifier "final_output".
+# 
+# ** Error: pipeline_tb.vhd(97): Type error resolving infix expression "<=" as type std.STANDARD.BOOLEAN.
+# ** Error: pipeline_tb.vhd(101): VHDL Compiler exiting
+# End time: 11:05:43 on Feb 01,2016, Elapsed time: 0:00:00
+# Errors: 7, Warnings: 0
+# C:/altera/15.0/modelsim_ase/win32aloem/vcom failed.
+source pipeline_tb.tcl
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:06:19 on Feb 01,2016
+# vcom -reportprogress 300 pipeline.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pipeline
+# -- Compiling architecture behavioral of pipeline
+# End time: 11:06:19 on Feb 01,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:06:19 on Feb 01,2016
+# vcom -reportprogress 300 pipeline_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pipeline_tb
+# -- Compiling architecture behaviour of pipeline_tb
+# End time: 11:06:19 on Feb 01,2016, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim -gui C:\Users\scarte9\ECSE425-Pipeline\pipeline.vhd 
-# Start time: 15:12:08 on Jan 31,2016
+# Start time: 11:06:19 on Feb 01,2016
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
 # Loading work.pipeline_tb(behaviour)
 # Loading work.pipeline(behavioral)
-# ** Warning: (vsim-8683) Uninitialized out port /pipeline_tb/dut/op1 has no driver.
-# 
-# This port will contribute value (-2147483648) to the signal network.
-# 
-# ** Warning: (vsim-8683) Uninitialized out port /pipeline_tb/dut/op2 has no driver.
-# 
-# This port will contribute value (-2147483648) to the signal network.
-# 
-# ** Warning: (vsim-8683) Uninitialized out port /pipeline_tb/dut/op3 has no driver.
-# 
-# This port will contribute value (-2147483648) to the signal network.
-# 
-# ** Warning: (vsim-8683) Uninitialized out port /pipeline_tb/dut/op4 has no driver.
-# 
-# This port will contribute value (-2147483648) to the signal network.
-# 
-# ** Warning: (vsim-8683) Uninitialized out port /pipeline_tb/dut/op5 has no driver.
-# 
-# This port will contribute value (-2147483648) to the signal network.
-# 
-# ** Warning: (vsim-8683) Uninitialized out port /pipeline_tb/dut/final_output has no driver.
-# 
-# This port will contribute value (-2147483648) to the signal network.
-# 
+# ** Note: test cases
+#    Time: 0 ps  Iteration: 0  Instance: /pipeline_tb
 quit -sim
 source pipeline_tb.tcl
 # Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 15:15:58 on Jan 31,2016
+# Start time: 11:14:45 on Feb 01,2016
 # vcom -reportprogress 300 pipeline.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -66,10 +78,10 @@ source pipeline_tb.tcl
 # -- Loading package NUMERIC_STD
 # -- Compiling entity pipeline
 # -- Compiling architecture behavioral of pipeline
-# End time: 15:15:58 on Jan 31,2016, Elapsed time: 0:00:00
+# End time: 11:14:45 on Feb 01,2016, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 15:15:58 on Jan 31,2016
+# Start time: 11:14:45 on Feb 01,2016
 # vcom -reportprogress 300 pipeline_tb.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -77,64 +89,108 @@ source pipeline_tb.tcl
 # -- Loading package NUMERIC_STD
 # -- Compiling entity pipeline_tb
 # -- Compiling architecture behaviour of pipeline_tb
-# End time: 15:15:58 on Jan 31,2016, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# OpenFile pipeline_tb.vhd
-# ** Error: (vish-4008) Object 'clk' not found.
-# 
-source pipeline_tb.tcl
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 15:16:08 on Jan 31,2016
-# vcom -reportprogress 300 pipeline.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity pipeline
-# -- Compiling architecture behavioral of pipeline
-# End time: 15:16:09 on Jan 31,2016, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
-# Start time: 15:16:09 on Jan 31,2016
-# vcom -reportprogress 300 pipeline_tb.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package NUMERIC_STD
-# -- Compiling entity pipeline_tb
-# -- Compiling architecture behaviour of pipeline_tb
-# End time: 15:16:09 on Jan 31,2016, Elapsed time: 0:00:00
+# End time: 11:14:46 on Feb 01,2016, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vsim 
-# Start time: 15:16:09 on Jan 31,2016
+# Start time: 11:14:46 on Feb 01,2016
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
 # Loading work.pipeline_tb(behaviour)
 # Loading work.pipeline(behavioral)
-# ** Warning: (vsim-8683) Uninitialized out port /pipeline_tb/dut/op1 has no driver.
-# 
-# This port will contribute value (-2147483648) to the signal network.
-# 
-# ** Warning: (vsim-8683) Uninitialized out port /pipeline_tb/dut/op2 has no driver.
-# 
-# This port will contribute value (-2147483648) to the signal network.
-# 
-# ** Warning: (vsim-8683) Uninitialized out port /pipeline_tb/dut/op3 has no driver.
-# 
-# This port will contribute value (-2147483648) to the signal network.
-# 
-# ** Warning: (vsim-8683) Uninitialized out port /pipeline_tb/dut/op4 has no driver.
-# 
-# This port will contribute value (-2147483648) to the signal network.
-# 
-# ** Warning: (vsim-8683) Uninitialized out port /pipeline_tb/dut/op5 has no driver.
-# 
-# This port will contribute value (-2147483648) to the signal network.
-# 
-# ** Warning: (vsim-8683) Uninitialized out port /pipeline_tb/dut/final_output has no driver.
-# 
-# This port will contribute value (-2147483648) to the signal network.
-# 
+# ** Note: test cases
+#    Time: 0 ps  Iteration: 0  Instance: /pipeline_tb
+quit -sim
+source pipeline_tb.tcl
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:20:28 on Feb 01,2016
+# vcom -reportprogress 300 pipeline.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pipeline
+# -- Compiling architecture behavioral of pipeline
+# End time: 11:20:28 on Feb 01,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:20:28 on Feb 01,2016
+# vcom -reportprogress 300 pipeline_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pipeline_tb
+# -- Compiling architecture behaviour of pipeline_tb
+# End time: 11:20:29 on Feb 01,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 11:20:29 on Feb 01,2016
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.pipeline_tb(behaviour)
+# Loading work.pipeline(behavioral)
+# ** Note: test cases
+#    Time: 0 ps  Iteration: 0  Instance: /pipeline_tb
+quit -sim
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:23:34 on Feb 01,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# End time: 11:23:35 on Feb 01,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:24:43 on Feb 01,2016
+# vcom -reportprogress 300 -work work C:/Users/scarte9/ECSE487-ALU/alu_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity alu_16
+# -- Compiling architecture implementation of alu_16
+# End time: 11:24:44 on Feb 01,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+source pipeline_tb.tcl
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:41:29 on Feb 01,2016
+# vcom -reportprogress 300 pipeline.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pipeline
+# -- Compiling architecture behavioral of pipeline
+# End time: 11:41:29 on Feb 01,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vcom 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 11:41:29 on Feb 01,2016
+# vcom -reportprogress 300 pipeline_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pipeline_tb
+# -- Compiling architecture behaviour of pipeline_tb
+# End time: 11:41:30 on Feb 01,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim 
+# Start time: 11:41:30 on Feb 01,2016
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.pipeline_tb(behaviour)
+# Loading work.pipeline(behavioral)
+# ** Note: test cases
+#    Time: 0 ps  Iteration: 0  Instance: /pipeline_tb
 quit -sim
